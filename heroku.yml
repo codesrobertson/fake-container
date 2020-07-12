@@ -1,0 +1,5 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: docker run -p $PORT:8080 -e "MB_KEY=$MB_KEY"
